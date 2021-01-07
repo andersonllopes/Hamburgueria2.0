@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Config/css/style-carrinho.css">
+    <title>Carrinho</title>
+</head>
+<body>
+    <div class="container">
+        <div class="games"></div>
+          <div class="title">
+            <div class="title-page">Cardápio</div>
+            <div class="classification">
+                <select class="compra-ordem">
+                  <option value="score" data-order="desc">Mais populares</option>
+                  <option value="price" data-order="asc">Menor Preço</option>
+                  <option value="price" data-order="desc">Maio Preço</option>
+                  <option value="name" data-order="asc">Classificar A-Z</option>
+                  <option value="name" data-order="desc">Classificar Z-A</option>
+                </select>
+              </div>
+            </div>
+          <div class="produto-lista" id="listaproduto"></div>
+        <div class="carrinho">
+          <div class="box-pay">
+            <div class="title-carrinho">Carrinho<span class="cart total-itens"></span></div>
+            <div class="box-data-carrinho">
+                <div class="box-carrinho">
+                    <img class="image-add-carrinho" src="#">
+                </div>
+                <div class="subscript-carrinho">Até o momento,<br/>o seu carrinho está vazio</div>
+              </div>
+          </div>
+        </div>
+      </div>     
+</body>
+</html>

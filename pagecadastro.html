@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style-cadastro.css">
+    <title>Cadastre-se</title>
+</head>
+    <body>
+        <div id="main-container">
+        <h1>Cadastre-se</h1>
+        <form id="cadastrar" action="">
+            <div class="full-box">
+                <label for="nome">Nome Completo</label>
+                <input type="text" name="nome" id="nome" class="nomecompleto" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="half-box spacing">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite o seu email" required>
+            </div>
+
+            <div class="half-box">
+                <label for="confirmacaoemail">Confirmação do E-mail</label>
+                <input type="email" name="confirmacaoemail"  placeholder="Confirme o seu email" required>
+            </div>
+
+            <div class="half-box spacing">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite a sua senha" required>
+                <img id="olho" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABDUlEQVQ4jd2SvW3DMBBGbwQVKlyo4BGC4FKFS4+TATKCNxAggkeoSpHSRQbwAB7AA7hQoUKFLH6E2qQQHfgHdpo0yQHX8T3exyPR/ytlQ8kOhgV7FvSx9+xglA3lM3DBgh0LPn/onbJhcQ0bv2SHlgVgQa/suFHVkCg7bm5gzB2OyvjlDFdDcoa19etZMN8Qp7oUDPEM2KFV1ZAQO2zPMBERO7Ra4JQNpRa4K4FDS0R0IdneCbQLb4/zh/c7QdH4NL40tPXrovFpjHQr6PJ6yr5hQV80PiUiIm1OKxZ0LICS8TWvpyyOf2DBQQtcXk8Zi3+JcKfNafVsjZ0WfGgJlZZQxZjdwzX+ykf6u/UF0Fwo5Apfcq8AAAAASUVORK5CYII=">
+            </div>
+
+            <div class="half-box">
+                <label for="confirmacaosenha">Confirmação de senha</label>
+                <input type="password" name="confirmacaosenha" id="confirmacaosenha"  placeholder="Digite novamente a sua senha" required>
+                <img id="confir" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABDUlEQVQ4jd2SvW3DMBBGbwQVKlyo4BGC4FKFS4+TATKCNxAggkeoSpHSRQbwAB7AA7hQoUKFLH6E2qQQHfgHdpo0yQHX8T3exyPR/ytlQ8kOhgV7FvSx9+xglA3lM3DBgh0LPn/onbJhcQ0bv2SHlgVgQa/suFHVkCg7bm5gzB2OyvjlDFdDcoa19etZMN8Qp7oUDPEM2KFV1ZAQO2zPMBERO7Ra4JQNpRa4K4FDS0R0IdneCbQLb4/zh/c7QdH4NL40tPXrovFpjHQr6PJ6yr5hQV80PiUiIm1OKxZ0LICS8TWvpyyOf2DBQQtcXk8Zi3+JcKfNafVsjZ0WfGgJlZZQxZjdwzX+ykf6u/UF0Fwo5Apfcq8AAAAASUVORK5CYII=">
+            </div>
+            
+            <div>
+                <input type="checkbox" name="termo" id="termo">
+                <label for="termo" id="termolabel">Eu li e aceito os <a href="#">termos de uso</a></label>
+            </div>
+
+            <div>
+                <input id="btnenviar" type="submit" value="Enviar">
+            </div>
+
+        </form>
+        </div>   
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="../Javascript/scriptvalidate.js"></script>
+        <script type="text/javascript" src="../Javascript/scriptcadastro.js"></script>        
+    </body>
+</html>
